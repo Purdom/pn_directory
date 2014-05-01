@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Program name:</strong>
+  <%= @program.program_name %>
+</p>
+
+<p>
+  <strong>Program url:</strong>
+  <%= @program.program_url %>
+</p>
+
+<p>
+  <strong>Contact name:</strong>
+  <%= @program.contact_name %>
+</p>
+
+<p>
+  <strong>Contact email:</strong>
+  <%= @program.contact_email %>
+</p>
+
+<p>
+  <strong>Mission statement:</strong>
+  <%= @program.mission_statement %>
+  </p>
+  <p>
+  <strong>structure:</strong>
+  <%= @program.structure %>
+  </p>
+  <p>
+  <strong>research:</strong>
+  <%= @program.research %>
+  </p>
+  <p>
+  <strong>people:</strong>
+  <%= @program.people %>
+  </p>
+  <p>
+  <strong>Mission statement:</strong>
+  <%= @program.direction %>
+</p>
+
+<%= link_to 'Edit', edit_program_path(@program) %> |
+<%= link_to 'Back', programs_path %>
